@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "RandomNameGeneratorLibrary": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
